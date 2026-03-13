@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$username = "test";
+$username = "text";
 $password = "123456";
 $database = "menagerie";
 // ①
@@ -12,3 +12,4 @@ if (!$conn) {
 // ②
 mysqli_set_charset($conn, "utf8");
 ?>
+
